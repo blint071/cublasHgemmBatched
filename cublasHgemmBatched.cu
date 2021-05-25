@@ -123,7 +123,7 @@ int main(){
    h_Parray[1+i] = &(h_P2[0][0]);
   }
 
-  GPU_Multi(h_Marray, h_Narray, h_Parray, ROWM, COLN, COLM, 10000, 10.0f, 10.0f);
+  GPU_Multi(h_Marray, h_Narray, h_Parray, ROWM, COLN, COLM, 10000, 1.0f, 1.0f);
 
   printf("Success!\n");
   return 0;
